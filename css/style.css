@@ -4,13 +4,14 @@
 body {
   font-family: 'Sreda', serif;
   margin: 0;
-  padding: 0;
-  background-color: #F2EDDB;
+
+  background-color: #f2e7bf;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   color: #1D2B1A;
+ 
 }
 
 /* Header with Flexbox for Left/Right Layout */
@@ -49,7 +50,7 @@ h1 {
   font-family: 'Sreda', serif;
   font-size: 2.4rem;
   margin-bottom: 0.5em;
-  color: #F2EDDB;
+  color:  #252422;
 }
 
 h2 {
@@ -100,4 +101,14 @@ button:hover {
 
 p{
     color:#403d39;
+}
+
+
+.full-width-image img {
+  width: 86%;
+  height: auto;
+  display: block;
+  
+  margin: auto;
+  padding: 0;
 }
