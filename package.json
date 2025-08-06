@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "dev": "npm start"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
