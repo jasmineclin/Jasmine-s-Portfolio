@@ -13,7 +13,7 @@
   gap: 2rem;
   padding: 2rem;
   margin-bottom: 2.5rem;
-  background-color: #ffffff; /* beige */
+  background-color: #fffbf6; /* beige */
   border-radius: 1rem;
   align-items: flex-start;
   flex-wrap: wrap; /* allows better stacking on mobile */
@@ -55,4 +55,8 @@
     display: block;
     margin-top: 2rem;
   }
+}
+h3 {
+  color: #6c784d;
+  font-size: 1.5rem;
 }
