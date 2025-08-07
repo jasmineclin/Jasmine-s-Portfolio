@@ -32,7 +32,7 @@
 }
 
 .project-image img {
-  max-width: 220px;  /* scale image down */
+  max-width: 800px;  /* scale image down */
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
@@ -47,11 +47,12 @@
   }
 
   .project-image img {
-    max-width: 100%; /* allow full-width scaling on mobile */
-      width: 100%;
-  height: auto;
-  border-radius: 0;
-  box-shadow: none;
-  display: block;
+    max-width: 800px; /* allow full-width scaling on mobile */
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    margin-top: 2rem;
   }
 }
