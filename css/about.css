@@ -4,6 +4,7 @@
   display: flex;
   align-items: flex-start;
   gap: 2em; /* space between image and text */
+
 }
 
 .headshot {
@@ -26,3 +27,29 @@
   padding-top:3em;
 
 }
+.Header-Banner {
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+
+  height: auto;
+  max-height: 300px; /* Adjust to control vertical size */
+
+  display: block;
+  object-fit: cover;
+
+  /* Force image to break out of centered layout */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
+}
+
+
+
+.Header-Banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures it fills the area nicely without distortion */
+  display: block;
+}
+
