@@ -1,5 +1,5 @@
 .beige-bg {
-  background-color: #ffffff;
+
   padding: 2rem;
   border-radius: 1rem;
   margin-bottom: 2.5rem;
@@ -13,15 +13,18 @@
   gap: 2rem;
   padding: 2rem;
   margin-bottom: 2.5rem;
-  background-color: #fffbf6; /* beige */
+  background-color: #afb896; /* beige */
   border-radius: 1rem;
   align-items: flex-start;
   flex-wrap: wrap; /* allows better stacking on mobile */
+  color: white;
+
 }
 
 .project-text {
   flex: 2;
   min-width: 250px;
+  color: white;
 }
 
 .project-image {
@@ -57,7 +60,7 @@
   }
 }
 h3 {
-  color: #6c784d;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 
@@ -75,6 +78,10 @@ h3 {
   /* Force image to break out of centered layout */
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+}
+
+.title{
+  color: white;
 }
 
 
